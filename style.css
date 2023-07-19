@@ -29,6 +29,7 @@ input[type="submit"]:hover{
 }
 body {
   background-color: #f8f8f8;
+
 }
 .logo {
   display: flex;
@@ -54,7 +55,7 @@ body {
   width: 80px;
   height: 4px;
   border-bottom: 3px solid black;
-  margin: 55px 620px;
+  margin: 55px 700px;
 }
 
 .card .lines {
@@ -81,7 +82,7 @@ header {
   background-image: url("IMAGES/hero.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: center right;
   margin: 15px;
   height: 660px;
 }
@@ -191,8 +192,10 @@ header {
   margin-top: 200px;
   
 }
-.inform .line {
-  margin-left: 1000px;
+
+
+.right .line {
+  margin-left: 1100px;
   width: 80px;
   height: 4px;
   padding-top: 35px;
@@ -204,6 +207,7 @@ header {
   height: 800px;
   float: left;
 }
+
 
 .sign-up {
   margin-top: 50px;
@@ -235,7 +239,7 @@ footer {
   text-align: end;
 }
 
-.inform h1 {
+.right h1 {
   text-align: center;
   align-items: center;
   padding-top: 180px;
@@ -243,7 +247,7 @@ footer {
   border-right: 2px solid var(--backdrop_color);
 }
 
-.content p {
+.right p {
   padding-top: 65px;
   padding-left: 90px;
   padding-right: 50px;
@@ -252,7 +256,7 @@ footer {
   letter-spacing: 0em;
   width: 620px;
   height: 190px;
-  margin-left: 700px;
+  margin-left: 820px;
   margin-top: 10px;
 }
 
@@ -279,12 +283,16 @@ footer {
 @media screen and (max-width: 768px) {
  .heading  h1 {
   display: flex;
-  margin: 0 auto;
+left: 200px;
+
   font-size: 20px;
+  align-items: center right;
  }
+
  
 
  }
+
 
  
  
