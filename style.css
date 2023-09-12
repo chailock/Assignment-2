@@ -95,9 +95,12 @@ header {
   margin-left: 40px;
 }
 
+
+
+
 .heading {
   margin: 175px;
-  margin-left: 300px;
+  margin-left: 410px;
   gap: 48px;
 }
 
@@ -132,6 +135,7 @@ header {
 }
 
 .header-card h1 {
+  padding: 15px;
   text-align: center;
 }
 
@@ -195,7 +199,7 @@ header {
 
 
 .right .line {
-  margin-left: 1100px;
+  margin-left: 1070px;
   width: 80px;
   height: 4px;
   padding-top: 35px;
@@ -256,7 +260,7 @@ footer {
   letter-spacing: 0em;
   width: 620px;
   height: 190px;
-  margin-left: 820px;
+  margin-left: 790px;
   margin-top: 10px;
 }
 
@@ -274,6 +278,8 @@ footer {
   width: 150px;
   height: 40px;
   margin-left: 50px;
+  padding-bottom: -50px;
+  
 }
 .social-link i:hover {
   transition: 1s;
@@ -292,6 +298,24 @@ left: 200px;
  
 
  }
+
+ @media screen and (max-width: 768px) {
+  .content {
+    padding: 10px;
+  }
+
+  .content h1 {
+    font-size: 20px;
+  }
+
+  .content p {
+    font-size: 14px;
+  }
+
+  .line {
+    margin: 10px auto;
+  }
+}
 
 
  
